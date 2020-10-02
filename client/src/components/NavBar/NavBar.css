@@ -1,0 +1,99 @@
+nav {
+  padding: 0 10px;
+  font-size: var(--font-size-small);
+  color: var(--color-grey);
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-bottom: 1px solid var(--color-light-grey);
+}
+
+#burger {
+  margin-right: 10px;
+}
+
+#burger i {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: var(--color-light-grey);
+}
+
+.logo-wrapper {
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 33px;
+  height: 33px;
+}
+
+#app-name {
+  font-size: var(--font-size-big);
+  margin-left: 10px;
+}
+
+nav .right-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 5px;
+}
+
+nav .right-container i {
+  text-align: center;
+}
+
+.settings-drop {
+  position: fixed;
+  top: 50px;
+  right: 60px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  border-radius: 4px;
+  padding: 6px 0;
+  color: var(--color-dark-grey);
+  font-size: var(--font-size-small);
+  background-color: white;
+}
+
+.settings-drop li {
+  padding: 5px 10px 5px 17px;
+}
+
+.settings-drop li:hover {
+  background-color: var(--color-light-grey);
+}
+
+.settings-drop li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+#profile-pic {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+@media all and (min-width: 768px) {
+  nav {
+    height: 65px;
+  }
+
+  #burger i {
+    background-color: white;
+  }
+  #burger i:hover {
+    background-color: var(--color-light-grey);
+  }
+}

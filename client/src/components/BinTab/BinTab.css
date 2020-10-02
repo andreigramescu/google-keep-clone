@@ -1,0 +1,20 @@
+.bin-tab .top-text {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.bin-tab .top-text span {
+  font-style: italic;
+}
+
+#bttn-empty-bin {
+  color: #1a73e8;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: var(--font-size-small);
+}
+
+#bttn-empty-bin:hover {
+  background: var(--color-light-grey);
+}
