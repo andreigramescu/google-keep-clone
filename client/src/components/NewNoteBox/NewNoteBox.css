@@ -1,0 +1,59 @@
+.new-note-box {
+  width: 500px;
+  position: relative;
+  border-radius: 7px;
+  padding: 15px;
+
+  background-color: grey;
+}
+
+.new-note-box .icon-pin {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.new-note-box input {
+  display: block;
+  width: 80%;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--color-grey);
+  margin: 0;
+}
+
+.new-note-box .note-content {
+  font-size: var(--font-size-medium);
+}
+
+.new-note-box button {
+  font-size: var(--font-size-small);
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+
+.new-note-box .bttn-close {
+  color: var(--color-fake-black);
+}
+.new-note-box .bttn-close:hover {
+  background-color: var(--color-light-grey);
+}
+
+.new-note-box .bttn-save {
+  color: var(--color-light-grey);
+  background-color: #1a73e8;
+}
+
+.new-note-box.open input {
+  margin-bottom: 20px;
+}
+
+.new-note-box .bttns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
