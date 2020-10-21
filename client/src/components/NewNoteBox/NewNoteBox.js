@@ -26,7 +26,7 @@ const NewNoteBox = props => {
             placeholder="Take a note..."
             onClick={() => setOpen(true)}
           />
-          <i className="fas fa-thumbtack icon-pin"></i>
+          {/* <i className="fas fa-thumbtack icon-pin"></i> */}
           <div className="bttns-container">
             <button className="bttn-save" onClick={handleNoteSave}>
               Save
